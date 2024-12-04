@@ -1,0 +1,23 @@
+{
+  "name": "wiki-for-fans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrogagodev/Wiki-for-fans.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrogagodev/Wiki-for-fans/issues"
+  },
+  "homepage": "https://github.com/pedrogagodev/Wiki-for-fans#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -12,6 +12,7 @@
 /* Home page */
 body {
     font-size: 1.6rem;
+
 }
 
 header {
@@ -48,4 +49,90 @@ nav a {
 }
 
 
+/* About page */
 
+.aboutScreen {
+    background-color: #E5E1DA;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2rem;
+    margin-top: 10rem;
+    background-color: white;
+    width: 70rem;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 8px 8px 5px rgb(44, 41, 41);
+}
+
+
+.card .goBack {
+    align-self: flex-start;
+    margin-top: 1.5rem;
+}
+
+.card .goBack a {
+    text-decoration: none;
+    color: black;
+}
+
+.card .goBack img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 0 0 1rem;
+}
+
+.card .goBack p {
+    margin-left: 7rem;
+    margin-top: .4rem;
+    font-size: 3rem;
+}
+
+.card .characterImg img {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 45rem;
+    height: 65rem;
+    border-radius: 1rem;
+}
+
+.card .characterImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .characterImg span {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.card .characterInformations {
+    width: 70rem;
+}
+
+.card .characterInformations h2 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.informationsTable  p {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 200%;
+    padding: 2rem 0 1rem 3rem;
+    border-bottom: 1px solid black;
+}

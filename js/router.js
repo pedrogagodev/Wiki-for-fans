@@ -1,8 +1,8 @@
-export class Router {
-    routes = {}
+export class Router { 
+    routes = {} 
 
     add(routeName, page) {
-        this.routes[routeName] = page
+        this.routes[routeName] = page 
     }
 
     route(event) {
